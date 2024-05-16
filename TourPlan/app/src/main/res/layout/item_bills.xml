@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/et_bill_name"
+        android:gravity="center"
+        android:hint="item"
+        android:textColorHint="#CCC38C"
+        android:textColor="#786C23"
+        android:background="@drawable/et_border_type_green"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="3"/>
+
+    <EditText
+        android:id="@+id/et_bill_cost"
+        android:background="@drawable/et_border_type_green"
+        android:gravity="center"
+        android:hint="price"
+        android:textColorHint="#CCC38C"
+        android:textColor="#514810"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="3"/>
+
+    <Button
+        android:id="@+id/btn_bill_save"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_baseline_done_green"/>
+
+
+</LinearLayout>

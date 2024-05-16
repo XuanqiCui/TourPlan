@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.starwar.tourplan">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/mount"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mount"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TourPlan"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".beans.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".beans.NoteMain" />
+        <activity android:name=".beans.CreateOP" />
+        <activity android:name=".beans.TourText" />
+        <activity android:name=".beans.EveryNoteWithBack" />
+        <activity android:name=".beans.Bills" />
+        <activity android:name=".beans.ShowBills" />
+        <activity android:name=".beans.BeijingDetail" />
+        <activity android:name=".beans.ChongQingDetail" />
+        <activity android:name=".beans.QingdaoDetail"/>
+        <activity android:name=".beans.ShowNote"/>
+    </application>
+
+</manifest>

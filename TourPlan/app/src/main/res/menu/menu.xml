@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bom_btn_bills"
+        android:icon="@drawable/ic_baseline_bills"
+        android:title="我的账单" />
+    <item
+        android:id="@+id/bom_btn_suggestion"
+        android:icon="@drawable/ic_baseline_suggestion_1"
+        android:title="旅行推荐" />
+</menu>

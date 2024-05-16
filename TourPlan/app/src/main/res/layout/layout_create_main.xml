@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_create_title"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="100dp"
+
+                    android:text="Time and Name?"
+                    android:textColor="@color/google_blue"
+                    android:textSize="45dp"
+                    android:maxLines="1">
+
+
+                </TextView>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:paddingTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/et_daynum"
+                    android:layout_width="match_parent"
+                    android:hint="How many days?"
+                    android:layout_height="50dp"
+
+                    android:background="@drawable/edit_boder_type_two"
+                    android:gravity="center"
+                    android:textColor="@color/app_green"
+                    android:textColorHint="@color/title_grey"
+                    android:maxLines="1"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/et_tourname"
+                    android:layout_width="match_parent"
+                    android:hint="input your tour name"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/edit_boder_type_two"
+                    android:gravity="center"
+                    android:textColor="@color/app_green"
+                    android:textColorHint="@color/title_grey"
+                    android:maxLines="1"
+                    android:textSize="15dp"/>
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/btn_shoot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_null"
+                    android:onClick="addtimeandname"
+                    android:paddingBottom="60dp"
+                    android:text="shoot!"
+                    android:textColor="@color/app_green"
+                    android:textSize="30dp" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
